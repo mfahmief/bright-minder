@@ -1,0 +1,28 @@
+@import url("./theme.css");
+@import url("./fonts.css");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#id {
+  height: 100vh;
+}
+
+h1 {
+  color: var(--bs-navbar-brand-color);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.bg-secondary {
+  background: rgba(252, 205, 2, 0.4) !important;
+}
