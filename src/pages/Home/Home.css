@@ -1,0 +1,6 @@
+.divider {
+  height: 6px;
+  width: 100%;
+  background: var(--highlight-color);
+  border-radius: 12px;
+}

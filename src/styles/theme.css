@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #040302; /* Dark Charcoal */
+    --secondary-color: #FCCD02; /* Bright Gold */
+    --tertiary-color: #9B800D; /* Dark Gold */
+    --accent-color: #7A5B02; /* Dark Brown */
+    --highlight-color: #737224; /* Olive Green */
+  }
+  
+  /* Example usage */
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .btn-tertiary {
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+  }
+  
+  .btn-accent {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  .btn-highlight {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+  }
+  
