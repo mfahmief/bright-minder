@@ -1,34 +1,15 @@
 :root {
-    --primary-color: #040302; /* Dark Charcoal */
-    --secondary-color: #FCCD02; /* Bright Gold */
-    --tertiary-color: #9B800D; /* Dark Gold */
-    --accent-color: #7A5B02; /* Dark Brown */
-    --highlight-color: #737224; /* Olive Green */
-  }
-  
-  /* Example usage */
-  .btn-primary {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-  }
-  
-  .btn-secondary {
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
-  }
-  
-  .btn-tertiary {
-    background-color: var(--tertiary-color);
-    border-color: var(--tertiary-color);
-  }
-  
-  .btn-accent {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-  }
-  
-  .btn-highlight {
-    background-color: var(--highlight-color);
-    border-color: var(--highlight-color);
-  }
-  
+  /* main color */
+  --color1: rgba(8, 6, 2, 1);
+  --color2: rgba(124, 92, 2, 1);
+  --color3: rgba(142, 113, 10, 1);
+  --color4: rgba(187, 148, 19, 1);
+  --color5: rgba(252, 197, 3, 1);
+
+  /* bg color/ */
+  --overlay-color: rgba(8, 6, 2, 0.8);
+
+  /* text color */
+  --primary-text: var(--color4);
+  --secondary-text: var(--color5);
+}

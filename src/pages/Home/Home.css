@@ -1,6 +1,27 @@
-.divider {
-  height: 6px;
-  width: 100%;
-  background: var(--highlight-color);
-  border-radius: 12px;
+.pt-66 {
+  padding-top: 66px !important;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 600;
+  animation: textAnimation 2s infinite alternate;
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--color2);
+}
+
+.default-height {
+  height: 90vh;
 }
