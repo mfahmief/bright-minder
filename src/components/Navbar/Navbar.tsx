@@ -2,7 +2,7 @@ import { FC, MouseEvent, useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../assets/img/BM.jpg";
+import logo from "../../assets/img/Heading.png";
 
 const pages = [
   { name: "Home", route: "/" },
