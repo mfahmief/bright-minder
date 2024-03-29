@@ -1,11 +1,17 @@
-.pt-66 {
-  padding-top: 66px !important;
-}
-
 .title {
   font-size: 42px;
   font-weight: 600;
+  letter-spacing: 20px;
   animation: textAnimation 2s infinite alternate;
+  color: #ffffff;
+}
+
+.title span {
+  display: inline-block;
+}
+
+.title span:first-letter {
+  color: var(--secondary-text);
 }
 
 @keyframes textAnimation {

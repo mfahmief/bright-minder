@@ -31,3 +31,7 @@ h6 {
 .bg-secondary {
   background: var(--overlay-color) !important;
 }
+
+.pt-66 {
+  padding-top: 66px !important;
+}

@@ -21,7 +21,9 @@ const HomePage: FC = () => {
     <Container className="d-flex flex-column align-items-center m-0 p-5 mw-100 mh-100 bg-secondary pt-66">
       <Row className="justify-content-center align-items-center default-height">
         <Col className="text-center">
-          <h1 className="title">BRIGHT MINDER</h1>
+          <h1 className="title">
+            <span>BRIGHT</span> <span>MINDER</span>
+          </h1>
           <p className="subtitle">
             Instrumental Melodic trio with a pinch of progressive
           </p>
