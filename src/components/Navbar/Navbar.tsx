@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/img/Heading.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const pages = [
   { name: "Home", route: "/" },
@@ -48,7 +49,9 @@ const NavBar: FC = () => {
             <Navbar.Brand href="#" onClick={(e) => onNavClick(e, "")}>
               <img src={logo} alt="" className="logo" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav">
+              <FontAwesomeIcon icon={["fas", "bars"]} />
+            </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
                 {pages.map((page) => (

@@ -27,3 +27,7 @@ a:hover {
 .solid {
   background: var(--color1) !important;
 }
+
+.navbar-toggler {
+  color: var(--color4);
+}

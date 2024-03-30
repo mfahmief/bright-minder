@@ -27,7 +27,7 @@ const HomePage: FC = () => {
         </Col>
       </Row>
 
-      <Row className="px-5 mb-5 w-100">
+      <Row className="px-3 mb-5 w-100">
         <Col>
           <h2 className="my-5 primary-color text-center">MUSIC VIDEO</h2>
           <YouTube
@@ -42,7 +42,7 @@ const HomePage: FC = () => {
         </Col>
       </Row>
 
-      <Row className="px-5 mb-5 w-100">
+      <Row className="px-3 mb-5 w-100">
         <Col>
           <h2 className="mb-5 primary-color text-center">LIVE SESSION</h2>
           <YouTube
