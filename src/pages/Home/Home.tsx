@@ -27,7 +27,7 @@ const HomePage: FC = () => {
         </Col>
       </Row>
 
-      <Row className="mb-5 w-100">
+      <Row className="px-5 mb-5 w-100">
         <Col>
           <h2 className="my-5 primary-color text-center">MUSIC VIDEO</h2>
           <YouTube
@@ -42,7 +42,7 @@ const HomePage: FC = () => {
         </Col>
       </Row>
 
-      <Row className="mb-5 w-100">
+      <Row className="px-5 mb-5 w-100">
         <Col>
           <h2 className="mb-5 primary-color text-center">LIVE SESSION</h2>
           <YouTube
@@ -53,7 +53,7 @@ const HomePage: FC = () => {
             className="video-container"
             iframeClassName="video-iframe"
           />
-          <h3 className="text-center my-3 primary-color">Sheren</h3>
+          <h3 className="text-center my-4 primary-color">Sheren</h3>
           <YouTube
             videoId="zacmwYafltU"
             opts={options}
@@ -62,7 +62,7 @@ const HomePage: FC = () => {
             className="video-container"
             iframeClassName="video-iframe"
           />
-          <h3 className="text-center my-3 primary-color">Two Are Two </h3>
+          <h3 className="text-center my-4 primary-color">Two Are Two </h3>
         </Col>
       </Row>
     </Container>
