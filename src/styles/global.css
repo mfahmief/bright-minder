@@ -35,3 +35,13 @@ h6 {
 .pt-66 {
   padding-top: 66px !important;
 }
+
+.email p,
+.contact p {
+  color: #ffffff;
+}
+
+.email h3,
+.contact h3 {
+  letter-spacing: 10px;
+}

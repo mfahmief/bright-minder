@@ -1,0 +1,51 @@
+.site-footer {
+  background: #ffffff;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 40px;
+  width: 100%;
+}
+
+.social-links {
+  a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(0, #080602, #080602) top left,
+      linear-gradient(0, #080602, #080602) top right,
+      linear-gradient(315deg, transparent 5px, #080602 0) bottom right,
+      linear-gradient(0, #080602, #080602) bottom left;
+    background-size: 55% 55%;
+    background-repeat: no-repeat;
+    color: var(--color4);
+    margin: 0 5px;
+    @include em(20);
+    line-height: 45px;
+
+    &:hover {
+      background: linear-gradient(
+            0,
+            lighten(#353535, 10%),
+            lighten(#353535, 10%)
+          )
+          top left,
+        linear-gradient(0, lighten(#353535, 10%), lighten(#353535, 10%)) top
+          right,
+        linear-gradient(315deg, transparent 5px, lighten(#353535, 10%) 0) bottom
+          right,
+        linear-gradient(0, lighten(#353535, 10%), lighten(#353535, 10%)) bottom
+          left;
+      background-size: 55% 55%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.site-footer .copy {
+  color: #434343;
+  font-weight: 300;
+  font-size: 14px;
+  font-size: 0.875em;
+}

@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar/Navbar";
 import bg from "./assets/img/IMG_20211228_115256.jpg";
 import "./App.css";
 import { Container } from "react-bootstrap";
+import { Footer } from "./components/Footer/Footer";
 
 const App: FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: FC = () => {
         <img src={bg} alt="" className="bg" />
         <NavBar />
         <Outlet />
+        <Footer />
       </Container>
     </>
   );
