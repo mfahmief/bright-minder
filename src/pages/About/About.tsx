@@ -6,10 +6,12 @@ import "./About.css";
 
 const AboutPage = () => {
   return (
-    <Container className="d-flex flex-column align-items-center m-0 p-5 mw-100 mh-100 bg-secondary pt-66">
-      <Row className="mt-5">
+    <Container className="about-page m-0 mw-100 pt-66">
+      <Row className="section-shell fade-rise">
         <Col>
-          <Carousel>
+          <p className="section-kicker">Band Story</p>
+          <h1 className="section-title">About Bright Minder</h1>
+          <Carousel className="metal-card about-carousel">
             <Carousel.Item>
               <img src={image1} alt="" className="slide-img" />
             </Carousel.Item>
@@ -20,9 +22,9 @@ const AboutPage = () => {
         </Col>
       </Row>
 
-      <Row className="mt-5">
+      <Row className="section-shell pb-5 fade-rise">
         <Col>
-          <p className="about-text">
+          <p className="about-text metal-card">
             Based in Bandar Baru Bangi, Selangor, Bright Minder is a band
             attached to the Instrumental Progressive Rock and Metal/J-Rock vibes
             genre. The band was formed in early 2017 with two guitarists, Nabil

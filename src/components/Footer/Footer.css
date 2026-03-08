@@ -1,51 +1,58 @@
 .site-footer {
-  background: #ffffff;
-  text-align: center;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0.72), rgba(3, 3, 3, 0.95));
+  border-top: 1px solid rgba(255, 211, 77, 0.2);
+}
+
+.footer-shell {
+  width: min(1120px, 92vw);
 }
 
 .footer-logo {
-  height: 40px;
-  width: 92px;
+  height: 42px;
+  width: auto;
+  filter: drop-shadow(0 0 12px rgba(242, 183, 5, 0.3));
 }
 
-.social-links {
-  a {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    background: linear-gradient(0, #080602, #080602) top left,
-      linear-gradient(0, #080602, #080602) top right,
-      linear-gradient(315deg, transparent 5px, #080602 0) bottom right,
-      linear-gradient(0, #080602, #080602) bottom left;
-    background-size: 55% 55%;
-    background-repeat: no-repeat;
-    color: var(--color4);
-    margin: 0 5px;
-    @include em(20);
-    line-height: 45px;
+.footer-tag {
+  color: #d8d3c4;
+}
 
-    &:hover {
-      background: linear-gradient(
-            0,
-            lighten(#353535, 10%),
-            lighten(#353535, 10%)
-          )
-          top left,
-        linear-gradient(0, lighten(#353535, 10%), lighten(#353535, 10%)) top
-          right,
-        linear-gradient(315deg, transparent 5px, lighten(#353535, 10%) 0) bottom
-          right,
-        linear-gradient(0, lighten(#353535, 10%), lighten(#353535, 10%)) bottom
-          left;
-      background-size: 55% 55%;
-      background-repeat: no-repeat;
-    }
-  }
+.footer-label {
+  margin-bottom: 0.7rem;
+  color: var(--secondary-text);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.social-links,
+.stream-links {
+  display: flex;
+  gap: 0.55rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-links a,
+.stream-links a {
+  border: 1px solid rgba(255, 211, 77, 0.35);
+  border-radius: 999px;
+  color: #f3e6b4;
+  padding: 0.42rem 0.82rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover,
+.stream-links a:hover {
+  background: rgba(255, 211, 77, 0.16);
+  box-shadow: var(--glow);
+  transform: translateY(-2px);
 }
 
 .site-footer .copy {
-  color: #434343;
-  font-weight: 300;
-  font-size: 14px;
-  font-size: 0.875em;
+  color: #a8a190;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 0.88rem;
 }

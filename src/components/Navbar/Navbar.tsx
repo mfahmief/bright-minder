@@ -33,17 +33,13 @@ const NavBar: FC = () => {
     };
   }, []);
 
-  // Calculate opacity based on scroll position
-  const opacity = Math.min(1, scrollPosition / 100); // Adjust the division factor as needed
-
-  // Apply the opacity to your background style
-  const backgroundStyle = {
-    backgroundColor: `rgba(8, 6, 2, ${opacity})`
-  };
+  const isScrolled = scrollPosition > 40;
 
   return (
     <>
-      <Container className="m-0 p-0  mw-100 fixed-top" style={backgroundStyle}>
+      <Container
+        className={`m-0 p-0 mw-100 fixed-top nav-shell ${isScrolled ? "is-scrolled" : ""}`}
+      >
         <Navbar expand="lg" className="navbar">
           <Container>
             <Navbar.Brand href="#" onClick={(e) => onNavClick(e, "")}>

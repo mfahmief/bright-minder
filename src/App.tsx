@@ -11,6 +11,7 @@ const App: FC = () => {
     <>
       <Container className="mw-100 h-100 m-0 p-0">
         <img src={bg} alt="" className="bg" />
+        <div className="site-bg-overlay" />
         <NavBar />
         <Outlet />
         <Footer />

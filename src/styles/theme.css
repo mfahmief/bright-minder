@@ -1,15 +1,18 @@
 :root {
-  /* main color */
-  --color1: rgba(8, 6, 2, 1);
-  --color2: rgba(124, 92, 2, 1);
-  --color3: rgba(142, 113, 10, 1);
-  --color4: rgba(187, 148, 19, 1);
-  --color5: #fcc503;
+  --color1: #060606;
+  --color2: #0f0f0f;
+  --color3: #1a1a1a;
+  --color4: #f2b705;
+  --color5: #ffd34d;
 
-  /* bg color/ */
-  --overlay-color: rgba(8, 6, 2, 0.8);
+  --overlay-color: rgba(5, 5, 5, 0.84);
+  --panel-bg: rgba(14, 14, 14, 0.82);
+  --panel-border: rgba(255, 211, 77, 0.24);
+  --muted-text: #d1cdc2;
 
-  /* text color */
-  --primary-text: var(--color4);
-  --secondary-text: var(--color5);
+  --primary-text: #ffe089;
+  --secondary-text: #ffd34d;
+  --heading-text: #fff8e1;
+  --glow: 0 0 18px rgba(242, 183, 5, 0.55);
+  --card-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
 }

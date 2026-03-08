@@ -9,10 +9,20 @@ import {
   faTwitter,
   faFontAwesome,
   faFacebookSquare,
-  faInstagram
+  faInstagram,
+  faYoutube,
+  faSpotify
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(fas, faTwitter, faFontAwesome, faFacebookSquare, faInstagram);
+library.add(
+  fas,
+  faTwitter,
+  faFontAwesome,
+  faFacebookSquare,
+  faInstagram,
+  faYoutube,
+  faSpotify
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

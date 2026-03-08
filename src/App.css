@@ -8,4 +8,18 @@
   bottom: 0;
   pointer-events: none;
   z-index: -1;
+  filter: grayscale(0.7) contrast(1.15) brightness(0.25);
+}
+
+.site-bg-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(8, 8, 8, 0.8) 65%,
+    rgba(5, 5, 5, 1) 100%
+  );
 }
